@@ -1,0 +1,82 @@
+/* .transactionHistory {
+  background-color: rgb(186, 228, 228);
+  width: 100%;
+  border: 1px solid black;
+} */
+
+/* .transactionHistory {
+  background-color: rgba(186, 228, 228, 0.274);
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+.transactionHistory th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.transactionHistory td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+} */
+.transactionHistory {
+  background-color: rgb(186, 228, 228);
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-collapse: separate;
+}
+.transactionHistory thead th {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  background: #ededed;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
+.transactionHistory tr th:first-child,
+.transactionHistory tr td:first-child {
+  border-left: 1px solid #ddd;
+}
+.transactionHistory tr th:last-child,
+.transactionHistory tr td:last-child {
+  border-right: 1px solid #ddd;
+}
+.transactionHistory thead tr th:first-child {
+  border-radius: 20px 0 0 0;
+}
+.transactionHistory thead tr th:last-child {
+  border-radius: 0 20px 0 0;
+}
+.transactionHistory tbody td {
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.transactionHistory tbody tr {
+  background: rgba(153, 161, 161, 0.274);
+}
+
+.transactionHistory tbody tr {
+  background: rgba(153, 161, 161, 0.274);
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.transactionHistory tbody tr:last-child td {
+  border-bottom: 1px solid #ddd;
+}
+.transactionHistory tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 20px;
+}
+.transactionHistory tbody tr:last-child td:last-child {
+  border-radius: 0 0 20px 0;
+}
