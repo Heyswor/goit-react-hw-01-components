@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import css from './FriendList.module.css';
+import css from './FriendListItem.module.css';
 
-export const FriendList = ({ friends }) => {
+export const FriendListItem = ({ friends }) => {
   const friendData = friends.map(friend => (
     <li className={css.item} key={friend.id}>
       <span
@@ -22,7 +22,7 @@ export const FriendList = ({ friends }) => {
   return <ul className={css.friendList}>{friendData}</ul>;
 };
 
-FriendList.propTypes = {
+FriendListItem.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.exact({
       avatar: PropTypes.string.isRequired,
